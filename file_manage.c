@@ -150,6 +150,9 @@ void turno(char *folder){
 		else if(strcmp(cartini, "re") == 0){
 			turno(ant);
 		}
+		else if(strcmp(cartini, "")){
+			turno(sig);
+		}
 		else{
 			turno(sig);
 		}
